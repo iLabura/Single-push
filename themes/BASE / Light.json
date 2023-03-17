@@ -1,76 +1,80 @@
 {
   "background": {
     "background-base": {
-      "value": "$grey.grey-10",
+      "value": "$grey.grey-90",
       "type": "color"
     },
     "gm-background-base": {
-      "value": "$grey.grey-30",
+      "value": "$grey.grey-90",
       "type": "color"
     },
     "background-progress-bar": {
-      "value": "$grey.grey-40",
+      "value": "$grey.grey-85",
       "type": "color",
       "description": "To be used on progress-bar backgrounds."
     }
   },
   "surface": {
     "surface-primary": {
-      "value": "$grey.grey-20",
+      "value": "$base.white",
       "type": "color"
     },
     "surface-secondary": {
-      "value": "$grey.grey-15",
+      "value": "$grey.grey-95",
       "type": "color"
     },
     "surface-panel": {
-      "value": "$grey.grey-25",
+      "value": "$base.white",
       "type": "color"
     },
     "surface-action-regular": {
-      "value": "$grey.grey-30",
+      "value": "$base.white",
       "type": "color"
     },
     "surface-action-regular--hover": {
-      "value": "$grey.grey-40",
+      "value": "$grey.grey-95",
       "type": "color"
     },
     "gradient": {
-      "value": "linear-gradient(0deg, $grey.grey-20 0%, $grey.grey-25 100%);",
+      "value": "linear-gradient(0deg, $grey.grey-95 0%, $base.white 100%);",
       "type": "color"
     },
     "surface-inverted-bw": {
-      "value": "$base.black",
+      "value": "$base.white",
       "type": "color"
     },
     "surface-input-inactive": {
-      "value": "$grey.grey-25",
+      "value": "$grey.grey-95",
       "type": "color"
     },
     "surface-input-active": {
-      "value": "$grey.grey-15",
+      "value": "$grey.grey-95",
       "type": "color"
     },
     "surface-input-text-inactive": {
-      "value": "$grey.grey-15",
+      "value": "$grey.grey-90",
+      "type": "color"
+    },
+    "surface-nav": {
+      "value": "$base.white",
       "type": "color"
     }
   },
   "content": {
     "content-primary": {
-      "value": "$base.white",
+      "value": "$base.black",
       "type": "color"
     },
     "content-secondary": {
-      "value": "$grey.grey-80",
+      "value": "$grey.grey-30",
       "type": "color"
     },
     "content-tertiary": {
-      "value": "$grey.grey-70",
+      "value": "$grey.grey-50",
       "type": "color"
     },
     "content-on-content-primary": {
-      "value": "$base.white",
+      "value": "$base.black",
       "type": "color"
     },
     "content-form-label-text": {
@@ -78,33 +82,37 @@
       "type": "color"
     },
     "content-primary-inverted": {
-      "value": "$base.black",
+      "value": "$base.white",
       "type": "color"
     },
     "content-perma-black": {
       "value": "$base.black",
       "type": "color"
+    },
+    "content-disabled": {
+      "value": "$grey.grey-60",
+      "type": "color"
     }
   },
   "border": {
     "border-primary": {
-      "value": "$grey.grey-10",
+      "value": "$grey.grey-90",
       "type": "color"
     },
     "border-secondary": {
-      "value": "$grey.grey-15",
+      "value": "$grey.grey-85",
       "type": "color"
     },
     "border-tertiary": {
-      "value": "$grey.grey-20",
+      "value": "$grey.grey-95",
       "type": "color"
     },
     "gm-border-base": {
-      "value": "$grey.grey-20",
+      "value": "$grey.grey-80",
       "type": "color"
     },
     "border-btn-disabled": {
-      "value": "$grey.grey-70",
+      "value": "$grey.grey-50",
       "type": "color"
     },
     "border-input": {
@@ -114,7 +122,7 @@
   },
   "overlay": {
     "overlay-scrim": {
-      "value": "rgba($base.black, $opacity-scrim)",
+      "value": "rgba($base.black,$opacity-scrim)",
       "type": "color"
     },
     "overlay-gradient": {

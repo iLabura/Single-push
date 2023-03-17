@@ -8,6 +8,10 @@
       "value": "$brand.casa-brand-primary-light",
       "type": "color"
     },
+    "surface-brand-dark": {
+      "value": "$brand.casa-brand-primary-dark",
+      "type": "color"
+    },
     "surface-highlighted": {
       "value": "$green.green-60",
       "type": "color"
@@ -26,6 +30,10 @@
     },
     "surface-active-hover": {
       "value": "$brand.casa-brand-primary-light",
+      "type": "color"
+    },
+    "surface-betslip-badge": {
+      "value": "$base.white",
       "type": "color"
     }
   },
@@ -79,6 +87,10 @@
       "type": "color"
     },
     "content-on-live": {
+      "value": "$base.white",
+      "type": "color"
+    },
+    "content-on-betslip-badge": {
       "value": "$base.black",
       "type": "color"
     }
