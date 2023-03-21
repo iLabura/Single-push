@@ -54,6 +54,10 @@
     "surface-input-text-inactive": {
       "value": "$grey.grey-90",
       "type": "color"
+    },
+    "surface-nav": {
+      "value": "$base.white",
+      "type": "color"
     }
   },
   "content": {
@@ -83,6 +87,14 @@
     },
     "content-perma-black": {
       "value": "$base.black",
+      "type": "color"
+    },
+    "content-perma-white": {
+      "value": "$base.white",
+      "type": "color"
+    },
+    "content-disabled": {
+      "value": "$grey.grey-60",
       "type": "color"
     }
   },

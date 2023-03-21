@@ -36,7 +36,7 @@
       "type": "color"
     },
     "gradient": {
-      "value": "linear-gradient(0deg, $grey.grey-20 0%, $grey.grey-25 100%);",
+      "value": "linear-gradient(0deg, $grey.grey-15 0%, $grey.grey-20 100%);",
       "type": "color"
     },
     "surface-inverted-bw": {
@@ -53,6 +53,10 @@
     },
     "surface-input-text-inactive": {
       "value": "$grey.grey-15",
+      "type": "color"
+    },
+    "surface-nav": {
+      "value": "$grey.grey-10",
       "type": "color"
     }
   },
@@ -83,6 +87,14 @@
     },
     "content-perma-black": {
       "value": "$base.black",
+      "type": "color"
+    },
+    "content-perma-white": {
+      "value": "$base.white",
+      "type": "color"
+    },
+    "content-disabled": {
+      "value": "$grey.grey-50",
       "type": "color"
     }
   },
